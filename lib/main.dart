@@ -17,19 +17,9 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[900],
       ),
-      body: const Center(
+      body: Center(
 
-        child: Text(
-            'Beno is Working',
-            style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 2.0,
-                color: Colors.grey,
-                fontFamily: 'IndieFlower'
-            )
-
-        ),
+        child: Image.asset('assets/space2.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
